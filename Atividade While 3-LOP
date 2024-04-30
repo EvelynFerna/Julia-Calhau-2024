@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int número, contador = 1;
+
+    printf("Digite um número: ");
+    scanf("%d", &número);
+
+    printf("Tabuada de %d:\n", número);
+    
+    while (contador <= 10) {
+        
+        printf("%d x %d = %d\n", número, contador, número * contador);
+        contador ++ ;
+    }
+
+    return 0;
+}
