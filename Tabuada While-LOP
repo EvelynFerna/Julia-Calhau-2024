@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+    int número, a ;
+    printf("Digite um número para ver a tabuada correspondente: ");
+    scanf("%d", &número);
+    
+    a = 1;
+    
+    while(a <= 10){
+        
+    printf("%d * %d = %d\n", número, a, (número * a));
+    
+    a ++;
+    }
+    
+return 0;
+}
