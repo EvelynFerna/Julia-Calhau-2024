@@ -1,3 +1,4 @@
+//calcular a velocidade, distancia e tempo de um avião
 #include <stdio.h>
 int main(){
     float velocidade = 900;
