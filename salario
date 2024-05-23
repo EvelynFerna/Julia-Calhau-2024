@@ -1,4 +1,4 @@
-//clacular o salario de um funcionario com um novo percnetual
+//clacular o salario de um funcionario com um novo percentual
 #include <stdio.h>
 #include <locale.h>
 int main(){
