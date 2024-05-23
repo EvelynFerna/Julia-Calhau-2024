@@ -1,3 +1,4 @@
+//calcular o tempo de um carro 
 #include <stdio.h>
 #include <locale.h>
 
